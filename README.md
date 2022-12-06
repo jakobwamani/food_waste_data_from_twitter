@@ -29,19 +29,6 @@ for tweet in tweepy.Cursor(api.search_tweets,
 csvFile.close()
 ```
 
-## Visualisation in Power BI
-I imported the Food waste into the Power BI
-![Raw Data fresh in a csv from Twitter API](raw_csv_data.PNG "Raw Data ")
-
-Cleaned the Date Data into the Power Bi
-![Cleaning the data in the Date](organised_data.PNG "Organised Data ")
-
-Prepared the Data for visualization
-![Prepared the Data for visualization](preparing_for_visualization.PNG "Organised Data ")
-
-Visualization of Food waste Data
-![food_waste_visualization](food_waste_visualization.PNG "Organised Data ")
-
 ## Exploratory Analysis in SQL
 -Had to create a database that will store the data from the Twitter API
 
@@ -123,3 +110,17 @@ select  count(distinct source) as number_of_tweets from device_action;
 select source ,count(source) from device_action group by source;
 
 -- Most Tweets were made from the 'Twitter Web App' and then followed by 'Twitter for iphone'
+```
+
+## Visualisation in Power BI
+I imported the Food waste into the Power BI
+![Raw Data fresh in a csv from Twitter API](raw_csv_data.PNG "Raw Data ")
+
+Cleaned the Date Data into the Power Bi
+![Cleaning the data in the Date](organised_data.PNG "Organised Data ")
+
+Prepared the Data for visualization
+![Prepared the Data for visualization](preparing_for_visualization.PNG "Organised Data ")
+
+Visualization of Food waste Data
+![food_waste_visualization](food_waste_visualization.PNG "Organised Data ")
