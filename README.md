@@ -1,5 +1,5 @@
 # Food waste
-This is a mini-project to show Twitter Activity about Food Waste on Twitter for 5 days
+This is a mini-project to show Twitter Activity about Food Waste on Twitter for 5 days from 12/1/2022 to 12/5/2022
 
 ## Data Aquistion using Twitter API
 ```python
