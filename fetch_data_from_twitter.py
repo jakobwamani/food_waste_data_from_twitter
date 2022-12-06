@@ -1,6 +1,7 @@
 import tweepy
 from credentials import *
 import csv #Import csv
+
 auth = tweepy.auth.OAuthHandler(api_key,api_secret_key)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 
